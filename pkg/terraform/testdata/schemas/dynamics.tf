@@ -8,7 +8,7 @@ variable "addPropTrue" {
 }
 variable "addPropSchema" {
   type = map(object({
-    bar = optional(string)
+    bar = optional(string, "")
   }))
 }
 variable "pattProp" {
